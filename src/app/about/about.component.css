@@ -1,6 +1,11 @@
 p{
-	color:  var(--main-first)
+	color:  var(--main-first);
+        font-size:larger;
+
 }
+.main{
+     color: var(--white);   
+ }
 .content{
 	display: flex;
 flex-direction: row;
@@ -82,6 +87,10 @@ img{
 @media screen and (max-width: 1280px) {
 .content{
     flex-direction: column;
+
+}
+p{
+        font-size:initial;
 }
 }
 

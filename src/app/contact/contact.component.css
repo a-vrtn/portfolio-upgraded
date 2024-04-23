@@ -16,7 +16,7 @@ li a {
 }
 li a::after {
   content: "";
-  background:#03a9f440;
+  background:var(--light-pink);
   position: absolute;
   left: 12px;
   bottom: -6px;

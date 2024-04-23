@@ -1,10 +1,18 @@
 [
+  { "id": 11, 
+    "name": "Eucalyptus Labs", 
+    "position":"Backend Developer",
+    "description":"I worked with multiple microservices each with their own databases that dealt with different aspects of building a cryptocurrency wallet. I also was part of creating  automated deployment process from local scripts to Jenkins. I maintained and monitored production, development and staging environments." , 
+    "place": "New York, USA (Remote)", 
+    "duration": "November 2022 - August 2023", 
+    "technologies":["Java", "Spring Boot", "Hibernate/JPA", "Micro Services", "PostgreSQL", "Jenkins", "Git"]
+  },
   { "id": 12, 
     "name": "Informatics Solution", 
     "position":"Software Engineer",
     "description":"I designed and developed Task Management web and mobile application for the internal staff. I was directly involved in architecting and implementing mobile and desktop applicatons for two clients in financial sector in Armenia. I greatly contributed in deployment and support, as well as adding features that the client requested after delivering. " , 
-    "place": "Yerevan, Armenia", 
-    "duration": "September 2016 - Present", 
+    "place": "Yerevan, Armenia (Full-Time)", 
+    "duration": "September 2016 - October 2022", 
     "technologies":["Java", "Spring Boot", "Hibernate/JPA", "AngularJS", "MySQL", "Git"]
   },
   { "id": 13, 
