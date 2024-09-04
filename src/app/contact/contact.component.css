@@ -32,6 +32,10 @@ li a:hover:after {
   height: 100%;
 }
 
+.button{
+  border-radius: 24px;
+}
+
 @media screen and (max-width: 768px) {
 .social{
 display: block;

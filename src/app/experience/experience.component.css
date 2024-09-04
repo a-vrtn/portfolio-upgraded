@@ -10,14 +10,14 @@ li{
     margin-right: 32px;
     list-style: none;
 }
-button:hover, button:active, button:focus {
+ button:hover, button:active, button:focus {
     color: var(--main-first);
     outline: 0px;
 }
 button:hover{
 
  background-color: var(--lightest-navy);
-}
+} 
 .section{
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
     transition: opacity 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s, transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;
@@ -52,7 +52,6 @@ button::selection {
 
 .active{
    color: var(--main-first);
-
     border-left: 2px solid var(--main-first);
    
 }
@@ -65,13 +64,11 @@ fa-icon{
     margin-right: 8px;
 
 }
-
-
-@media screen and (max-width: 768px) {
+.container{
+ max-width: max-content;
+}
+@media screen and (max-width: 1024px) {
 .container{
     flex-direction: column;
 }
-}
-@media only screen (min-width: 768px){
-
 }

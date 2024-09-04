@@ -1,33 +1,20 @@
 [
   {
       "name": "My Portfolio",
-      "description":"This website is made from scratch using the latest version of Angular and following recent UX principles.",
+      "description":"This website is made from scratch using the latest version of Angular (v18) and following recent UX principles.",
       "year":"2022",
       "link":"https://github.com/anooshik-v/portfolio-upgraded",
-      "technologies":[ "Angular", "Github Pages"]
+      "demo": "https://anooshik.am",
+      "technologies":[ "Angular"]
   },
   {
        "name": "Rolling Ball",
-      "description":"Microgame made during Unity Learn tutorial",
-      "demo":"https://play.unity.com/mg/other/webgl-builds-391099",
-            "year":"2024",
-      "technologies":["Unity"]
- 
-  },{
-       "name": "Menacing Martini",
-      "description":"Microgame made during Unity Learn tutorial",
-      "demo":"https://play.unity.com/mg/other/webgl-builds-391562",
-            "year":"2024",
-      "technologies":["Unity"]
- 
-  }, {
-       "name": "The Cube of Randomness",
-      "description":"Microgame made during Unity Learn tutorial",
-      "demo":"https://play.unity.com/mg/other/webgl-builds-398206",
-            "year":"2024",
-      "technologies":["Unity"]
- 
-  },  {
+       "description":"Dive into the vibrant world of Pachinko Paradise, a delightful pachinko game crafted with Unity. This casual arcade game combines traditional Japanese pachinko mechanics with modern visuals and engaging sound effects. Players drop shimmering balls into the machine, aiming to land them in winning pockets to score points and unlock exciting rewards.",
+     
+    "demo":   "https://play.unity.com/en/games/a8947ac3-3247-415d-b5a0-8f58c451cb44/pachinko-101",
+    "technologies":[ "Unity"]
+     
+       },  {
       "name": "Wedding Bot and Admin Panel",
       "description":"This is a short project I made. It included connecting to telegram's bot API to receive messages and send responses based on the intention the user will have. The intentions included knowing about venue, rsvp, fun facts about the soon-to-be-wedded couple and quizzes. All of which were customizable from an admin portal.",
       "year":"2021",

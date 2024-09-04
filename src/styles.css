@@ -1,3 +1,5 @@
+
+@import  "@angular/material/prebuilt-themes/magenta-violet.css";
 /* You can add global styles to this file, and also import other style files */
 :root {
 
@@ -8,9 +10,9 @@
   --transition-default:  all 0.25s cubic-bezier(0.645,0.045,0.355,1) ;
     --dark-navy: #020c1b;
     --navy: #0a192f;
-    --light-navy: #112240;
-    --light-pink:#651a73;
-    --lightest-navy: #233554;
+    --light-navy: #401136;
+    --light-pink: rgba(101, 26, 115, 0.38);
+    --lightest-navy:#3c0044;
     --navy-shadow: rgba(2,12,27,0.7);
     --dark-slate: #495670;
     --slate: #8892b0;
@@ -21,6 +23,7 @@
 
 * {
   font-family: Verdana, sans-serif;
+  scroll-behavior: smooth;
 }
 body{
    color:var(--text-mid);	
@@ -99,3 +102,5 @@ p, h3{
     padding: 0px 28px;
 }
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -12,7 +12,15 @@ import { FooterComponent } from './footer/footer.component';
 import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontawesome';
 import { LavaComponent } from './lava/lava.component';
 import { faFolderOpen, faCodeBranch,faEye,faLaptopFile,faGraduationCap,faBolt,faPen,faBars } from '@fortawesome/free-solid-svg-icons';
-
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
+import {MatIconModule} from '@angular/material/icon';
+import {MatDividerModule} from '@angular/material/divider';
+import {MatButtonModule} from '@angular/material/button';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatCardModule} from '@angular/material/card';
+import {MatChipsModule} from '@angular/material/chips';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,10 +34,17 @@ import { faFolderOpen, faCodeBranch,faEye,faLaptopFile,faGraduationCap,faBolt,fa
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    MatSidenavModule,
+    MatButtonModule, MatDividerModule, MatIconModule,MatCardModule,
+    MatChipsModule,
+    FormsModule, ReactiveFormsModule
   ],
-  providers: [],
+  providers: [
+    provideAnimationsAsync()
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule {
@@ -44,3 +59,7 @@ export class AppModule {
     library.addIcons(faBars);
 
   } }
+function provideAnimations(): any[] | import("@angular/core").Type<any> | import("@angular/core").ModuleWithProviders<{}> {
+  throw new Error('Function not implemented.');
+}
+

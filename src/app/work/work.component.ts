@@ -18,4 +18,7 @@ constructor(private dataService: DataService) {}
 getWorks(): void {
   this.projects = this.dataService.getWorks();
 }
+openLink(url: string): void {
+  window.open(url, '_blank', 'noopener,noreferrer');
+}
 }
