@@ -1,5 +1,5 @@
 <div class="section">
-  <h3>Some Things I've Built</h3>
+  <h3>Some Things I have Built</h3>
   <ul class="work-grid">
 <li *ngFor="let project of projects" class="project">
   <div class="project-inner">
@@ -18,6 +18,6 @@
          </div>
          <p class="project-title"> {{project.name}}</p>
          <div class="project-description"><p> {{project.description}}</p></div></header></div>  
-        <footer><ul class="project-tech-list"><li class="tech" *ngFor="let technology of project.technologies">
+        <footer style="height:36px; margin-top:8px; "><ul class="project-tech-list"><li class="tech" *ngFor="let technology of project.technologies">
              {{technology}}</li></ul>
 </footer></li></ul></div>

@@ -4,7 +4,6 @@
       "description":"This website is made from scratch using the latest version of Angular and following recent UX principles.",
       "year":"2022",
       "link":"https://github.com/anooshik-v/portfolio-upgraded",
-      "demo":"https://a-vrtn.github.io/",
       "technologies":[ "Angular", "Github Pages"]
   },
   {
@@ -44,7 +43,7 @@
       "name": "D ",
       "description":"This project was built from scratch and included working with file storage apis to store documents and retrieve them securely. It included creating rest APIs to be used by mobile to preform those actions. as well. The API was used to allow users to upload a text file, receive a token, which could be passed to the same API for an encrypted and timestamped copy of that file. The file would be accessible only once per request. The outcome of the project was implementing the backend, admin portal and mobile application done in ios and android. The project was deployed on AWS.",
       "year":"2021",
-      "technologies":["Java","Google Payments","Apple Payments", "MySQL", "Angular", "AWS Deployment"]
+      "technologies":["Java","Google and Apple Payments","Apple Payments", "MySQL", "Angular", "AWS Deployment"]
   },
   {
       "name": "TT",
