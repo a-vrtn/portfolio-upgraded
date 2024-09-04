@@ -13,17 +13,17 @@
       </div>
     </div>
     <div *ngIf="selectedPlace" [@curtain]>
-      <p style="font-size: large;">{{selectedPlace?.position}} <span class="pop">&#64;{{selectedPlace?.name}}</span></p>
-      <p>{{selectedPlace?.duration}}</p>
-      <p>{{selectedPlace?.place}}</p>
-      <p>{{selectedPlace?.description}}</p>
-      <h6 *ngIf="selectedPlace?.technologies">technologies i worked with:</h6>
+      <p style="font-size: large;">{{selectedPlace.position}} <span class="pop">&#64;{{selectedPlace.name}}</span></p>
+      <p>{{selectedPlace.duration}}</p>
+      <p>{{selectedPlace.place}}</p>
+      <p>{{selectedPlace.description}}</p>
+      <h6 *ngIf="selectedPlace.technologies">technologies i worked with:</h6>
       <li *ngFor="let technology of selectedPlace.technologies">
         <span>
           <fa-icon class="pop" icon="bolt"></fa-icon>  {{technology}}
         </span>
       </li>
-      <h6 *ngIf="selectedPlace?.coursework">coursework i studied:</h6>
+      <h6 *ngIf="selectedPlace.coursework">coursework i studied:</h6>
       <li *ngFor="let coursework of selectedPlace.coursework">
         <span>
           <fa-icon class="pop" icon="pen"></fa-icon>     
